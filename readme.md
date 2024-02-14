@@ -26,10 +26,20 @@ Summary of installation steps:
 
 ```bash
 mkdir myapp && cd myapp
+```
+```bash
 npx degit https://github.com/samlinux-development/ic-alpinejs
+```
+```bash
 npm install
+```
+```bash
 dfx start --clean --background
+```
+```bash
 dfx deploy 
+```
+```bash
 echo http://$(dfx canister id frontend).localhost:4943
 ```
 Open your browser and use the following URL scheme:

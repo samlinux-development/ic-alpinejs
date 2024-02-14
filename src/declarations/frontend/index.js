@@ -9,7 +9,6 @@ export { idlFactory } from "./frontend.did.js";
  * process.env.CANISTER_ID_<CANISTER_NAME_UPPERCASE>
  * beginning in dfx 0.15.0
  */
-
 export const canisterId =
   process.env.CANISTER_ID_FRONTEND ||
   process.env.FRONTEND_CANISTER_ID;
